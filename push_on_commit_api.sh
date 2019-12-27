@@ -7,10 +7,10 @@ do
     then
         echo ${line%/*}
 #        echo "有以api结尾的文件改变"
-        git push -u origin master
+#        git push -u origin master
+        gradle task
         echo 0
         exit 1
-#        gradle task
     fi
 done
 
